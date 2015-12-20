@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <SOLibPaths />
+  <OObjPaths />
+  <Configuration />
+  <Platform />
+  <AndroidArchitecture />
+  <!--links to other recipe files-->
+  <RecipeFiles>C:\Users\ziyad\Documents\tinyWindow_Android\x86\Debug\libtinyWindow_Android.so.recipe</RecipeFiles>
+</project>
