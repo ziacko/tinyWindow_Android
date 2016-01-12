@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <SOLibPaths>C:\Users\ziyad\Documents\Projects\tinyWindow_Android\x64\Debug\libtinyWindow_Android.a;D:\NVPACK\android-ndk-r10e\prebuilt\android-x86_64\gdbserver\gdbserver;D:\NVPACK\android-ndk-r10e\sources\cxx-stl\gnu-libstdc++\4.9\libs\x86_64\libgnustl_static.a</SOLibPaths>
+  <OObjPaths></OObjPaths>
+  <Configuration>Debug</Configuration>
+  <Platform>x64</Platform>
+  <AndroidArchitecture>x86_64</AndroidArchitecture>
+</project>

@@ -1,0 +1,9 @@
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\ARM\Debug\tinyWindow_Android.apk.recipe
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\ARM\Debug\tinyWindow_Android.apk.recipe.merged
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\ARM\Debug\tinyWindow_Android.apk
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\ARM\Debug\tinyWindow_Android.lastsuccessfuldeploy
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\tinyWindow_Android\tinyWindow_Android.Packaging\ARM\Debug\FileStringReplace.incremental
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\ARM\Debug\Package\libs\armeabi-v7a\libtinyWindow_Android.a
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\ARM\Debug\Package\AndroidManifest.xml
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\ARM\Debug\Package\project.properties
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\ARM\Debug\Package\build.xml

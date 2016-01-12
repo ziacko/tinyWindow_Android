@@ -6,5 +6,5 @@
   <Platform />
   <AndroidArchitecture />
   <!--links to other recipe files-->
-  <RecipeFiles>C:\Users\ziyad\Documents\tinyWindow_Android\x86\Debug\libtinyWindow_Android.so.recipe</RecipeFiles>
+  <RecipeFiles>C:\Users\ziyad\Documents\Projects\tinyWindow_Android\x86\Debug\libtinyWindow_Android.so.recipe</RecipeFiles>
 </project>

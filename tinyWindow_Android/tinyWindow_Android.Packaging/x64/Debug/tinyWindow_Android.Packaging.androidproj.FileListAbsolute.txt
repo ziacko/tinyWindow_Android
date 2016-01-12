@@ -1,0 +1,9 @@
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\x64\Debug\tinyWindow_Android.apk.recipe
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\x64\Debug\tinyWindow_Android.apk.recipe.merged
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\x64\Debug\Package\libs\x86_64\libtinyWindow_Android.a
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\x64\Debug\tinyWindow_Android.apk
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\x64\Debug\tinyWindow_Android.lastsuccessfuldeploy
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\tinyWindow_Android\tinyWindow_Android.Packaging\x64\Debug\FileStringReplace.incremental
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\x64\Debug\Package\AndroidManifest.xml
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\x64\Debug\Package\project.properties
+C:\Users\ziyad\Documents\Projects\tinyWindow_Android\x64\Debug\Package\build.xml

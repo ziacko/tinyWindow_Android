@@ -15,21 +15,24 @@
 *
 */
 
+#include "tinyWindow_Android.h"
+
+/*
 #define LOGI(...) ((void)__android_log_print(ANDROID_LOG_INFO, "AndroidProject1.NativeActivity", __VA_ARGS__))
 #define LOGW(...) ((void)__android_log_print(ANDROID_LOG_WARN, "AndroidProject1.NativeActivity", __VA_ARGS__))
 
-/**
+/ **
 * Our saved state data.
-*/
+* /
 struct saved_state {
 	float angle;
 	int32_t x;
 	int32_t y;
 };
 
-/**
+/ **
 * Shared state for our app.
-*/
+* /
 struct engine {
 	struct android_app* app;
 
@@ -46,17 +49,17 @@ struct engine {
 	struct saved_state state;
 };
 
-/**
+/ **
 * Initialize an EGL context for the current display.
-*/
+* /
 static int engine_init_display(struct engine* engine) {
 	// initialize OpenGL ES and EGL
 
-	/*
+	/ *
 	* Here specify the attributes of the desired configuration.
 	* Below, we select an EGLConfig with at least 8 bits per color
 	* component compatible with on-screen windows
-	*/
+	* /
 	const EGLint attribs[] = {
 		EGL_SURFACE_TYPE, EGL_WINDOW_BIT,
 		EGL_BLUE_SIZE, 8,
@@ -74,15 +77,15 @@ static int engine_init_display(struct engine* engine) {
 
 	eglInitialize(display, 0, 0);
 
-	/* Here, the application chooses the configuration it desires. In this
+	/ * Here, the application chooses the configuration it desires. In this
 	* sample, we have a very simplified selection process, where we pick
-	* the first EGLConfig that matches our criteria */
+	* the first EGLConfig that matches our criteria * /
 	eglChooseConfig(display, attribs, &config, 1, &numConfigs);
 
-	/* EGL_NATIVE_VISUAL_ID is an attribute of the EGLConfig that is
+	/ * EGL_NATIVE_VISUAL_ID is an attribute of the EGLConfig that is
 	* guaranteed to be accepted by ANativeWindow_setBuffersGeometry().
 	* As soon as we picked a EGLConfig, we can safely reconfigure the
-	* ANativeWindow buffers to match, using EGL_NATIVE_VISUAL_ID. */
+	* ANativeWindow buffers to match, using EGL_NATIVE_VISUAL_ID. * /
 	eglGetConfigAttrib(display, config, EGL_NATIVE_VISUAL_ID, &format);
 
 	ANativeWindow_setBuffersGeometry(engine->app->window, 0, 0, format);
@@ -114,9 +117,9 @@ static int engine_init_display(struct engine* engine) {
 	return 0;
 }
 
-/**
+/ **
 * Just the current frame in the display.
-*/
+* /
 static void engine_draw_frame(struct engine* engine) {
 	if (engine->display == NULL) {
 		// No display.
@@ -131,9 +134,9 @@ static void engine_draw_frame(struct engine* engine) {
 	eglSwapBuffers(engine->display, engine->surface);
 }
 
-/**
+/ **
 * Tear down the EGL context currently associated with the display.
-*/
+* /
 static void engine_term_display(struct engine* engine) {
 	if (engine->display != EGL_NO_DISPLAY) {
 		eglMakeCurrent(engine->display, EGL_NO_SURFACE, EGL_NO_SURFACE, EGL_NO_CONTEXT);
@@ -151,9 +154,9 @@ static void engine_term_display(struct engine* engine) {
 	engine->surface = EGL_NO_SURFACE;
 }
 
-/**
+/ **
 * Process the next input event.
-*/
+* /
 static int32_t engine_handle_input(struct android_app* app, AInputEvent* event) {
 	struct engine* engine = (struct engine*)app->userData;
 	if (AInputEvent_getType(event) == AINPUT_EVENT_TYPE_MOTION) {
@@ -164,9 +167,9 @@ static int32_t engine_handle_input(struct android_app* app, AInputEvent* event) 
 	return 0;
 }
 
-/**
+/ **
 * Process the next main command.
-*/
+* /
 static void engine_handle_cmd(struct android_app* app, int32_t cmd) {
 	struct engine* engine = (struct engine*)app->userData;
 	switch (cmd) {
@@ -211,11 +214,11 @@ static void engine_handle_cmd(struct android_app* app, int32_t cmd) {
 	}
 }
 
-/**
+/ **
 * This is the main entry point of a native application that is using
 * android_native_app_glue.  It runs in its own thread, with its own
 * event loop for receiving input events and doing other things.
-*/
+* /
 void android_main(struct android_app* state) {
 	struct engine engine;
 
@@ -291,3 +294,4 @@ void android_main(struct android_app* state) {
 		}
 	}
 }
+*/
